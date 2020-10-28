@@ -14,6 +14,10 @@ const ProjectSchema = new Schema({
         type: String,
         required: true,
     },
+    date: {
+        type: String,
+        required: true,
+    }
 });
 
 mongoose.model("project", ProjectSchema);
